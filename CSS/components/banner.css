@@ -1,0 +1,31 @@
+.banner {
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+url(../../images/image_2.jpeg);
+color: white;
+padding: 150px 0px;
+background-size: cover;
+background-position: center;}
+
+
+.banner h1 { 
+font-size: 50px;
+font-weight: 600;
+opacity: 0.8;
+font-family: roboto, sans serif;}
+
+.banner h2 { 
+font-size: 30px; 
+font-weight: lighter;
+font-family: lora, serif;
+opacity: 0.8;
+margin-bottom: 18px;}
+
+
+@media (max-width:960px)
+{.banner { width:700px;}}
+
+@media (max-width:720px)
+{.banner { width:500px;}}
+
+@media (max-width:540px)
+{.banner { width:300px;}}
